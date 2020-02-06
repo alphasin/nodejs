@@ -4,7 +4,8 @@
   "description": "This is loop service for do the jobs iterative",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/alphasin/nodejs/issues"
   },
-  "homepage": "https://github.com/alphasin/nodejs#readme"
+  "homepage": "https://github.com/alphasin/nodejs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
