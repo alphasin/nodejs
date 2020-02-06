@@ -1,0 +1,23 @@
+{
+  "name": "loop-service",
+  "version": "1.0.0",
+  "description": "This is loop service for do the jobs iterative",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphasin/nodejs.git"
+  },
+  "keywords": [
+    "node.js",
+    "loop-service"
+  ],
+  "author": "sinh.nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alphasin/nodejs/issues"
+  },
+  "homepage": "https://github.com/alphasin/nodejs#readme"
+}
